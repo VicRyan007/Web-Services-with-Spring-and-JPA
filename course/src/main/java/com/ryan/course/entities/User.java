@@ -20,6 +20,10 @@ public class User implements Serializable {
 	private Long id;
 	private String name,email,phone,password;
 	
+	public User() {
+		
+	}
+	
 	public User(Object id, String name, String email, String phone, String password) {
 		super();
 		this.id = (Long) id;
